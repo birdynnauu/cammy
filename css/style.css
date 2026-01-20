@@ -1,0 +1,370 @@
+*{
+	margin: 0;
+	padding: 0;
+	scroll-behavior:smooth;
+}
+
+body{
+	background: #FFFDF7;
+	height: 100%;
+}
+
+.main{
+	width: 100%;
+}
+
+section{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+}
+
+.element-ctn {
+	position:relative;
+	width:100%;
+}
+
+.free{
+	position: absolute;
+}
+
+.bubble{
+	width:20%;
+}
+
+
+/* --- BACKGROUNDS --- */
+.wall{
+	background-image:url('../img/bg_sidewall.png');
+	background-size:cover;
+}
+
+.sky{
+	background-image:url('../img/bg_sky.png');
+	background-size:cover;
+}
+
+.text{
+	background-image:url('../img/bg_text.png');
+	background-size:cover;
+}
+
+.title{
+	background-image:url('../img/bg_title.png');
+	background-size:cover;
+}
+
+/* --- One --- */
+section#one{
+	
+	overflow: hidden;
+	top: 0;
+}
+
+.maintitle{
+	width:40%;
+	margin: 0 auto;
+	top:15%
+}
+
+.subtitle{
+	width:30%;
+	margin: 0 auto;
+	
+	top:55%;
+}
+
+.start{
+	width:5%;
+	margin: 0 auto;
+	
+	transform:scale(1.0);
+	transition: transform 0.3s;
+	
+	top:75%;
+}
+
+.start:hover{
+	transform:scale(1.2);
+}
+
+
+
+
+
+
+
+
+/* --- Two --- */
+section#two{
+	top: 100%;
+}
+
+.hand{
+	width:70%
+}
+
+#milahand{
+	left:-20%;
+	animation-name: milahand;
+}
+
+@keyframes milahand {
+  from {
+    opacity: 0;
+    transform: translateY(-100px) rotate(30deg);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) rotate(10deg);
+  }
+}
+
+#ronhand{
+	right:-20%;
+	animation-name: ronhand;
+}
+
+@keyframes ronhand {
+  from {
+    opacity: 0;
+    transform: translateX(-100px) rotate(180deg);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0) rotate(140deg);
+  }
+}
+
+#ronbubbletired{
+	margin-top:5%;
+	left:50%;
+}
+
+
+
+
+
+
+
+
+/* --- Three --- */
+section#three{
+	top: 200%;
+}
+
+#milashock{
+	width:80%;
+}
+
+#milabubblehuh{
+	animation-name: huh;
+	right:10%;
+}
+
+@keyframes huh {
+  from {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(300px);
+  }
+}
+
+
+
+
+
+
+
+
+/* --- Four --- */
+section#four{
+	overflow: hidden;
+	top: 300%;
+}
+
+#ronlean{
+	width:50%;
+	margin-left:50%;
+}
+
+#ronbubbleendure{
+	margin-left:25%;
+}
+
+#ronbubblebad{
+	margin-top:4%;
+	margin-left:10%;
+}
+
+#ronbubbleuniverse{
+	margin-top:15%;
+	margin-left:25%;
+}
+
+#ronbubblejoke{
+	margin-top:25%;
+	margin-left:10%;
+}
+
+
+
+
+
+
+
+
+/* --- Five --- */
+section#five{
+	top: 400%;
+}
+
+#milaplead{
+	width:30%;
+	margin-left:1%;
+}
+
+#milabubblecammy{
+	margin-left:40%;
+}
+
+#milabubbleresolve{
+	width:15%;
+	margin-top:8%;
+	margin-left:55%;
+}
+
+#milabubblehope{
+	width:15%;
+	margin-top:13%;
+	margin-left:43%;
+}
+
+#milabubblethrough{
+	margin-top:25%;
+	margin-left:53%;
+}
+
+#milabubblebefore{
+	width:15%;
+	margin-top:30%;
+	margin-left:43%;
+}
+
+
+
+
+
+
+
+/* --- Six --- */
+section#six{
+	top: 500%;
+}
+
+#roncry{
+	width:70%;
+	margin: 0 15%;
+}
+
+#ronbubblewhat{
+	margin-top:25%;
+	margin-left:15%;
+}
+
+
+
+
+
+
+/* --- Seven --- */
+section#seven{
+	top: 600%;
+}
+
+#milastand{
+	width:20%;
+	margin: 0 40%;
+}
+
+#ronback{
+	width:80%;
+	margin: 0 10%;
+}
+
+#ronbubblenothing{
+	margin-left:10%;
+}
+
+#ronbubblehelp{
+	margin-left:70%;
+}
+
+
+
+
+
+
+
+/* --- Eight --- */
+section#eight{
+	top: 700%;
+}
+
+#plainstrong{
+	width:50%;
+	margin:10% 25%;
+}
+
+
+
+
+
+
+/* --- Nine --- */
+section#nine{
+	top: 800%;
+}
+
+#milarun{
+	margin-left:10%;
+}
+
+#milabubblewait{
+	margin-top:10%;
+	margin-left:25%;
+}
+
+#ronfall{
+	width:50%;
+	margin-left:55%;
+}
+
+#ronbubblehope{
+	width:40%;
+	margin-left:40%;
+}
+
+
+
+
+
+
+/* --- Ten --- */
+section#ten{
+	top: 900%;
+}
+
+#plaincammy{
+	width:30%;
+	margin:10% 35%;
+}
+
+#plainsorry{
+	width:40%;
+	margin:20% 30%;
+}
